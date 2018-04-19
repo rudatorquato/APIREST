@@ -53,7 +53,7 @@ return [
             'strict' => true,
             'engine' => null,
         ],
-/*
+
         'pgsql' => [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', 'ec2-174-129-41-64.compute-1.amazonaws.com'),
@@ -66,11 +66,11 @@ return [
             'schema' => 'public',
             'sslmode' => 'prefer',
         ],
-*/
 
+/*
 'pgsql' => [
     'driver' => 'pgsql',
-    'host' => env('DB_HOST', 'localhot'),
+    'host' => env('DB_HOST', 'localhost'),
     'port' => env('DB_PORT', '5432'),
     'database' => env('DB_DATABASE', 'bdr'),
     'username' => env('DB_USERNAME', 'postgres'),
@@ -80,7 +80,7 @@ return [
     'schema' => 'public',
     'sslmode' => 'prefer',
 ],
-
+*/
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'host' => env('DB_HOST', 'localhost'),
