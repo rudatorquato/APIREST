@@ -53,7 +53,7 @@ return [
             'strict' => true,
             'engine' => null,
         ],
-
+/*
         'pgsql' => [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', 'ec2-174-129-41-64.compute-1.amazonaws.com'),
@@ -66,8 +66,8 @@ return [
             'schema' => 'public',
             'sslmode' => 'prefer',
         ],
+*/
 
-/*
 'pgsql' => [
     'driver' => 'pgsql',
     'host' => env('DB_HOST', 'localhost'),
@@ -80,7 +80,7 @@ return [
     'schema' => 'public',
     'sslmode' => 'prefer',
 ],
-*/
+
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'host' => env('DB_HOST', 'localhost'),
